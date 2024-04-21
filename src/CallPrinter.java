@@ -1,5 +1,4 @@
 public class CallPrinter implements Printer {
-
     private Call call;
 
     public CallPrinter(Call call) {
@@ -18,6 +17,4 @@ public class CallPrinter implements Printer {
         requirementsPrinter.printDetails();
         System.out.println("");
     }
-
-
 }

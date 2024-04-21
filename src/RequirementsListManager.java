@@ -15,5 +15,4 @@ public class RequirementsListManager {
     public void removeRequirement(String requirement) {
         requirements.getApplicantInfoRequirements().remove(requirement);
     }
-
 }
